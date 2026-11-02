@@ -1,0 +1,133 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #eaeaea;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "Fraunces", serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.home{
+  background-image: url(images/blackandwhitetrillium.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection{
+  background-image: url(images/collectionbackground.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main{
+  min-height: 90vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  align-content: center;
+}
+
+footer{
+  text-align: center;
+  padding: 16px;
+  color: #757575;
+}
+
+header{
+  background-color: rgba(255, 255, 255, 25%);
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 32px;
+  position: sticky;
+  top: 16px;
+  backdrop-filter: blur(8px);
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+}
+
+/* TYPOGRAPHY
+--------------------------------------------------- */
+
+h1{
+  font-size: 55px;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  opacity: 90%;
+  margin: 0;
+
+}
+
+p{
+  font-weight: 500;
+  color: #f2eddaaa;
+  margin-top: 8px;
+  margin-bottom: 24px;
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #f2eddaaa;
+}
+
+.button{
+  border: 2px solid #f2eddaaa;
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 4px 16px 4px 16px;
+}
+
+.button:hover{
+  background-color: #f2eddaaa;
+  color: #000000;
+
+}
+
+/* GRID SYSTEM
+--------------------------------------------------- */
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.max-width{
+  max-width: 500px;
+}
+
+.center-content{
+  text-align: center;
+}
